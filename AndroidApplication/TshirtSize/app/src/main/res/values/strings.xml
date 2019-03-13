@@ -1,0 +1,12 @@
+<resources>
+    <!--<string name="app_name">TshirtSize</string>-->
+    <string name="app_name">Find My T-shirt Size</string>
+    <string name="take_a_picture_of_your_shirt_and_find_its_size">Want to measure your T-shirt Size? Upload a picture of your shirt and find its size</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="get_image">Get Image</string>
+    <string name="ok">Ok</string>
+    <string name="string_default">Default</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="show_suggestions">Show Suggestions</string>
+</resources>

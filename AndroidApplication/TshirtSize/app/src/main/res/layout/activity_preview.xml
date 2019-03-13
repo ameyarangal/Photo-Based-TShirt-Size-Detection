@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:background="@color/colorPrimary">
+
+    <!--<Switch android:id="@+id/api_swh"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"/>-->
+
+    <TextView android:id="@+id/preview_text_tv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/image_preview"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@android:color/transparent"
+        android:padding="10dip"/>
+
+    <ImageView android:id="@+id/show_picture_iv"
+        android:src="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preview_text_tv"
+        android:layout_above="@+id/upload_image_btn"/>
+
+    <Button android:id="@+id/upload_image_btn"
+        android:textAllCaps="true"
+        android:text="@string/upload_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
